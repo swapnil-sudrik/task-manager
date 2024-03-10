@@ -1,0 +1,209 @@
+/* body {
+  overflow: hidden;
+} */
+
+.main {
+  max-width: 99%;
+}
+
+.top {
+  border-bottom: 1px solid gray;
+  background-color: #fff;
+}
+
+.main-contain {
+  margin-top: 70px;
+}
+
+.left {
+  position: fixed;
+  /* background-color: red; */
+  height: calc(100% - 70px);
+  border-right: 1px solid gray;
+}
+
+.right {
+  margin-left: 25%;
+  width: fit-content;
+}
+
+.menu-container {
+  margin-top: 20px;
+}
+
+.dashboard-icon {
+  display: flex;
+}
+
+.menu-link {
+  text-decoration: none;
+  color: black;
+  display: block;
+  width: 100%;
+  padding: 5px 70px;
+}
+
+.menu-link:hover{
+  background-color: #0d6efd;
+}
+
+.bottom-icon-container {
+  margin-top: calc(100% - 20px);
+}
+
+
+@media (max-width: 768px) {
+  .main-contain {
+    margin-top: 130px;
+  }
+
+  .right {
+    margin-left: 2%;
+  }
+}
+
+@media (max-width: 991px) {
+  .right {
+    margin-left: 12%;
+  }
+}
+
+
+
+.dashboard {
+  margin-bottom: 8%;
+}
+
+.dashboard-card {
+  width: 230px;
+}
+
+.dashboard-card .d-title {
+  font-size: 20px;
+}
+
+.d-title{
+  color: #0d6efd;
+}
+
+.dashboard-cards {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  align-content: center;
+}
+
+.footer {
+  background-color: rgb(197, 197, 197);
+  padding: 5px;
+  text-align: center;
+  align-items: center;
+  width: 100%;
+}
+
+.add-task {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 95px;
+}
+
+.container-single-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.single-card {
+  width: 90%;
+}
+
+.last-item {
+  font-size: 13px;
+}
+
+.login-body {
+  margin-top: 70px;
+}
+
+.loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 79vh;
+}
+
+.loader1{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent black background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.loader .login-page-img img {
+  width: 100%;
+  aspect-ratio: 3/2;
+  object-fit: contain;
+  
+}
+
+.my-card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.bottom-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  color: #777;
+}
+
+.bottom-text p {
+  margin-bottom: 10px;
+}
+
+.bottom-text a {
+  color: #007bff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.bottom-text a:hover {
+  color: #0056b3;
+}
+
+/* App.css or global styles */
+.dark-mode {
+  background-color: #2f3349;
+  color: #fff;
+  /* Add more dark mode styles as needed */
+}
+
+/* Light mode styles */
+.light-mode {
+  background-color: #fff;
+  /* Add more styles for light mode as needed */
+}
+
+.input-container {
+  position: relative;
+}
+
+.icon {
+  position: absolute;
+  top: 70%;
+  left: 7px; /* Adjust the left position as needed */
+  transform: translateY(-50%);
+  pointer-events: none;
+}
+
+.input-container input {
+  padding-left: 30px; 
+}
